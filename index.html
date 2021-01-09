@@ -143,7 +143,7 @@
     </section>
   </main>
 
-  <footer class="py-4 text-white text-center text-md-left bg-dark mt-auto">
+  <footer class="py-4 text-center text-md-left mt-auto">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -151,14 +151,79 @@
             © Your Website 2018. All Rights Reserved.
           </address>
           <nav class="nav justify-content-center">
-            <a class="nav-link" href="#">Privacy</a>
-            <a class="nav-link" href="#">Terms</a>
-            <a class="nav-link" href="#">FAQ</a>
+            <a class="nav-link footer-link" href="#" data-toggle="modal"
+            data-target="#privacyModal">Privacy</a>
+            <a class="nav-link footer-link" href="#" data-toggle="modal"
+            data-target="#termsModal">Terms</a>
+            <a class="nav-link footer-link" href="#" data-toggle="modal"
+            data-target="#faqModal">FAQ</a>
           </nav>
         </div>
       </div>
     </div>
   </footer>
+
+  <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="privacyModalLabel">Privacy Statement</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia minus id, voluptatibus optio qui sequi
+          molestiae amet sed! Atque, dolores eos ipsam voluptates enim accusantium culpa obcaecati dicta minima
+          expedita.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="termsModalLabel">Terms and Conditions</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, commodi quam saepe, blanditiis ducimus magni,
+          ab repudiandae fuga hic quidem doloremque placeat ipsum repellendus distinctio perferendis laudantium aliquam
+          similique nesciunt.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="faqModal" tabindex="-1" aria-labelledby="faqModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="faqModalLabel">Frequently Asked Questions</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quod eum odit vero dolor repudiandae quas
+          dignissimos autem possimus cupiditate? Sed qui quod ab aut, totam voluptatibus nihil doloremque ipsam.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

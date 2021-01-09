@@ -48,3 +48,15 @@ header {
   display: inline-block;
   padding: 1rem 0.8rem;
 }
+
+footer {
+  background-color:  #222;
+  color: #484848;
+}
+
+.footer-link {
+  color:#484848;
+}
+.footer-link:hover {
+  color:  #fdcc52;
+}
