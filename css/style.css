@@ -1,0 +1,50 @@
+body {
+  background-image: url("../img/bg-pattern.png"), linear-gradient(to right, #DA2431, #7A4397);
+}
+
+header {
+  position: sticky;
+  top: 0;
+ }
+
+ .navbar-brand {
+  color:#F0A954
+ }
+ .download .jumbotron {
+   background-color: #FDCB4E;
+ }
+
+ .start  .jumbotron {
+  background-image: url("../img//bg-cta.jpg");
+  background-size: 100% auto; 
+  /* width: 100vw;
+  min-height: 100vh; */
+ }
+
+ .contact .jumbotron {
+   background-color: #FEC947;
+ }
+
+ .fa-twitter {
+    background-color: #1DA1F3;
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+ }
+
+ .fa-facebook-f {
+    background-color: #3B5999;
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 1.4rem;
+ }
+
+ .fa-google-plus-g {
+  background-color: #DD4C39;
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+  padding: 1rem 0.8rem;
+}
