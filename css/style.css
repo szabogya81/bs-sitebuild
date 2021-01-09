@@ -5,48 +5,56 @@ body {
 header {
   position: sticky;
   top: 0;
- }
+}
 
  .navbar-brand {
   color:#F0A954
- }
- .download .jumbotron {
-   background-color: #FDCB4E;
- }
+}
+.download .jumbotron {
+  background-color: #FDCB4E;
+}
 
- .start  .jumbotron {
+.start  .jumbotron {
   background-image: url("../img//bg-cta.jpg");
-  background-size: 100% auto; 
-  /* width: 100vw;
-  min-height: 100vh; */
- }
+  background-size: 100% auto;
+}
 
- .contact .jumbotron {
-   background-color: #FEC947;
- }
+.contact .jumbotron {
+  background-color: #FEC947;
+}
 
- .fa-twitter {
-    background-color: #1DA1F3;
-    border-radius: 100%;
-    color: #fff;
-    display: inline-block;
-    padding: 1rem;
- }
-
- .fa-facebook-f {
-    background-color: #3B5999;
-    border-radius: 100%;
-    color: #fff;
-    display: inline-block;
-    padding: 1rem 1.4rem;
- }
-
- .fa-google-plus-g {
-  background-color: #DD4C39;
+.fab {
   border-radius: 100%;
   color: #fff;
   display: inline-block;
+  opacity: 90%;
+}
+
+.fa-twitter {
+  background-color: rgba(29, 161, 243, 0.9);
+  padding: 1rem;
+}
+
+.fa-twitter:hover {
+  background-color: rgba(29, 161, 243, 1);
+}
+
+.fa-facebook-f {
+  background-color: rgb(59, 89, 153, 0.9);
+  padding: 1rem 1.4rem;
+}
+
+.fa-facebook-f:hover {
+  background-color: rgb(59, 89, 153, 1);
+}
+
+.fa-google-plus-g {
+  background-color:rgb(221, 76, 57, 0.9);
   padding: 1rem 0.8rem;
+}
+
+.fa-google-plus-g:hover {
+  background-color:rgb(221, 76, 57, 1);
 }
 
 footer {
@@ -57,6 +65,7 @@ footer {
 .footer-link {
   color:#484848;
 }
+
 .footer-link:hover {
   color:  #fdcc52;
 }
