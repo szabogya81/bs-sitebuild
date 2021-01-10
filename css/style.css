@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: Lato;
-  src: url(../fonts/Lato-Thin.ttf);
+  src: url(../fonts/Lato-Regular.ttf);
 }
 
 @font-face {
@@ -13,29 +13,87 @@
   src: url(../fonts/Mulish-Light.ttf);
 }
 
-body {
-  background-image: url("../img/bg-pattern.png"), linear-gradient(to right, #DA2431, #7A4397);
+html {
+	scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4,h5,h6 {
+body {
+  background-image: 
+    url("../img/bg-pattern.png"), 
+    linear-gradient(to right, #DA2431, #7A4397);
+  min-width: 400px; 
+}
+
+h1,h2,h3,h4,h5,h6, .navbar {
   font-family: Catamaran, Helvetica, Arial, sans-serif;
 }
 
-p {
+.navbar-nav .nav-link, .startButton {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+p, footer {
   font-family: Muli, Helvetica, Arial, sans-serif;
 }
 
-header {
-  position: sticky;
-  top: 0;
+/* .navbar-brand.active {
+  color:#FDCC53
 }
 
-.navbar-brand {
-  color:#F0A954
+.navbar-brand:hover {
+  color: #fff;
+} */
+.navbar-dark .navbar-brand.active {
+  color:#FDCC53
 }
 
-.navbar-nav .nav-link {
-  font-family: Lato, Helvetica, Arial, sans-serif;
+.navbar-light .navbar-brand.active {
+  color:#FDCC53
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar.scroll .navbar-brand:hover {
+  color: #2F2F2F;
+}
+
+.navbar.scroll {
+  color: #2F2F2F;
+  background-color: #fff;
+}
+
+.navbar.scroll .navbar-nav .nav-link {
+  color: #2F2F2F;
+}
+
+.navbar.scroll .navbar-nav .nav-link.active {
+  color:#FDCC53;
+}
+
+.navbar-toggler-icon {
+  background-size:80%;
+  background-position: top;
+}
+
+.navbar.scroll .navbar-toggler {
+  border: 2px solid #E5E5E5;
+  border-radius: 8px;
+  background-color:rgba(255, 255, 255, 0);
+  color: #222;
+}
+
+.navbar-nav .nav-link.active {
+  color:#FDCC53;
+}
+
+.navbar-nav .nav-link:hover {
+  color:#fff;
 }
 
 .demoScreen {
@@ -58,9 +116,17 @@ header {
 }
 
 .start .jumbotron {
-  background-image: url("../img/bg-cta.jpg");
+
+  min-height:616px;
+  background:url("../img/bg-cta.jpg") rgba(0, 0, 0, 0.6);
   background-size: cover;
-  min-height: 850px;
+  background-blend-mode: multiply;
+  background-position: center;
+  overflow: hidden;
+}
+
+.start .jumbotron h2 {
+  font-size: 2.9rem;
 }
 
 .startButton {
@@ -69,8 +135,15 @@ header {
   border-color: #fff;
   border-radius: 40px;
   color: #fff;
-  font-family: Lato, Helvetica, Arial,sans-serif ;
-  padding: 1rem 5rem;
+  font-size: 0.65rem;
+  font-stretch: ultra-expanded;
+  padding: 0.7rem 3.1rem;
+  transition: 0.3s;
+}
+
+.startButton:hover {
+  background-color: #fdcc52;
+  border-color:  #fdcc52;
 }
 
 .startButton.now {
@@ -86,6 +159,10 @@ header {
   background-color: #FEC947;
 }
 
+.contact .jumbotron h1 {
+  font-size: 2.8rem;
+}
+
 .fab {
   border-radius: 100%;
   color: #fff;
@@ -95,7 +172,7 @@ header {
 
 .fa-twitter {
   background-color: rgba(29, 161, 243, 0.9);
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
 .fa-twitter:hover {
@@ -104,7 +181,7 @@ header {
 
 .fa-facebook-f {
   background-color: rgb(59, 89, 153, 0.9);
-  padding: 1rem 1.4rem;
+  padding: 1.2rem 1.6rem;
 }
 
 .fa-facebook-f:hover {
@@ -113,7 +190,7 @@ header {
 
 .fa-google-plus-g {
   background-color:rgb(221, 76, 57, 0.9);
-  padding: 1rem 0.8rem;
+  padding: 1.2rem 1rem;
 }
 
 .fa-google-plus-g:hover {
@@ -122,12 +199,12 @@ header {
 
 footer {
   background-color:  #222;
-  color: #484848;
-  font-family: Muli, Helvetica, Arial, sans-serif;
+  color: #626262;
+  font-size: 0.7rem;
 }
 
 .footer-link {
-  color:#484848;
+  color:#626262;
 }
 
 .footer-link:hover {

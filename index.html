@@ -12,18 +12,18 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
-      <a class="navbar-brand text-warning" href="#">Start Bootstrap</a>
+  <header class="sticky-top ">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand mr-auto active" href="#">Start Bootstrap</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
         aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
-        Menu<span class="navbar-toggler-icon ml-1"></span>
+        Menu<span class="navbar-toggler-icon m1-1"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainMenu">
-        <div class="navbar-nav">
-          <a class="nav-link" href="#download">Download</a>
-          <a class="nav-link" href="#features">Features</a>
-          <a class="nav-link" href="#contact">Contact</a>
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link download" href="#download">Download</a>
+          <a class="nav-link features" href="#features">Features</a>
+          <a class="nav-link contact" href="#contact">Contact</a>
         </div>
       </div>
     </nav>
@@ -41,14 +41,14 @@
             <button class="startButton now mb-5 w-50">START NOW FOR FREE!</button>
           </div>
           <div class="col-8 offset-2 col-md-6 my-5">
-            <img src="./img/phone.png" alt="" class="w-100">
+            <img src="./img/phone.png" alt="Mobile" class="w-100 ">
             <img class="demoScreen demoTop" src="./img/demo-screen-1.jpg" alt="" class="w-100">
           </div>
         </div>
       </div>
     </section>
 
-    <section id="download" class="download">
+    <section class="download" id="download">
       <div class="jumbotron jumbotron-fluid mt-5 mb-0 px-5">
         <div class="container">
           <div class="row">
@@ -80,34 +80,34 @@
               <p>Check out what you can do with this app theme!</p>
             </div>
           </div>
-          <div class="row pt-5">
-            <div class="d-flex justify-content-center col-10 offset-1 col-md-3 px-2 pb-3 mb-5">
-              <img src="./img/phone.png" alt="" class="w-75">
+          <div class="row pt-5 pb-5">
+            <div class="d-flex justify-content-center col-10 offset-1 col-md-3 px-2 pb-3 mb-5 bg-transparent">
+              <img src="./img/phone.png" alt="Mobile" class="w-75">
               <img class="demoScreen demoFeature" src="./img/demo-screen-1.jpg" alt="" class="w-100">
             </div>
             <div class="row pt-5">
-              <div class="col-12 card border-0 mb-5">
+              <div class="col-12 card border-0 mb-5 bg-transparent">
                 <div class="card-body text-center">
                   <h5 class="h1 card-title mb-3">&#128241;</h5>
                   <h6 class="h4 card-subtitle mb-2">Device Mockups</h6>
                   <p class="card-text">Ready to use HTML/CSS device<br>mockups, no Photoshop required!</p>
                 </div>
               </div>
-              <div class="col-12 card border-0 mb-5 mt-4">
+              <div class="col-12 card border-0 mb-5 mt-4 bg-transparent">
                 <div class="card-body text-center">
                   <h5 class="h1 card-title mb-3">&#x1F4F8;</h5>
                   <h6 class="h4 card-subtitle mb-2 text-muted">Flexible Use</h6>
                   <p class="card-text">Put an image, video, animation, or<br>anything else in the screen!</p>
                 </div>
               </div>
-              <div class="col-12 card border-0 mb-5 mt-4">
+              <div class="col-12 card border-0 mb-5 mt-4 bg-transparent">
                 <div class="card-body text-center">
                   <h5 class="h1 card-title mb-3">&#x1F381;</h5>
                   <h6 class="h4 card-subtitle mb-2">Free to Use</h6>
                   <p class="card-text">As always, this theme is free to<br>download and use for any purpose!</p>
                 </div>
               </div>
-              <div class="col-12 card border-0 mb-5 mt-4">
+              <div class="col-12 card border-0 mb-5 mt-4 bg-transparent">
                 <div class="card-body text-center">
                   <h5 class="h1 card-title mb-3">&#128275;</h5>
                   <h6 class="h4 card-subtitle mb-2 text-muted">Open Source</h6>
@@ -121,14 +121,14 @@
     </section>
 
     <section id="start" class="start">
-      <div class="jumbotron jumbotron-fluid mb-0 h-100">
-        <div class="container">
-          <div class="row">
+      <div class="jumbotron jumbotron-fluid mb-0 h-100 d-flex flex-column justify-content-center">
+        <div class="container pl-5">
+          <div class="row text-white pl-2">
             <div class="col-12">
-              <h1 class="display-4 text-white">Stop waiting.</h1>
+              <h2 class="h1">Stop waiting.</h2>
             </div>
-            <div class="col-12 text-white">
-              <p class="display-4">Start building.</p>
+            <div class="col-12 mb-2">
+              <h2 class="h1">Start building.</h2>
             </div>
             <div class="col-12">
               <button class="startButton">LET'S GET STARTED!</button>
@@ -140,18 +140,18 @@
 
     <section id="contact" class="contact">
       <div class="jumbotron jumbotron-fluid mb-0">
-        <div class="container">
+        <div class="container mt-4 mb-4">
           <div class="row">
             <div class="col-12 text-center">
-              <h1 class="display-4 mb-4">We &#129505; new friends!</h1>
+              <h1 class="mb-4">We <span class="text-danger">&#x2764;</span> new friends!</h1>
             </div>
             <div class="col-12 text-center">
               <nav class="nav justify-content-center">
-                <a class="text-white mr-2" data-toggle="tooltip" data-placement="top" title="Twitter">
+                <a class="text-white mr-2 pr-1" data-toggle="tooltip" data-placement="top" title="Twitter">
                   <i class="fab fa-twitter fa-2x"></i>
                   <span class="sr-only">Link to Twitter page</span>
                 </a>
-                <a class="text-white mr-2" data-toggle="tooltip" data-placement="top" title="Facebook">
+                <a class="text-white mr-2 pr-1" data-toggle="tooltip" data-placement="top" title="Facebook">
                   <i class="fab fa-facebook-f fa-2x"></i>
                   <span class="sr-only">Link to Facebook page</span>
                 </a>
@@ -167,17 +167,17 @@
     </section>
   </main>
 
-  <footer class="py-4 text-center text-md-left mt-auto">
+  <footer class="py-3 text-center text-md-left mt-auto">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <address>
+        <p class="mb-0">
             © Your Website 2018. All Rights Reserved.
-          </address>
+          </p>
           <nav class="nav justify-content-center">
-            <a class="nav-link footer-link" href="#" data-toggle="modal" data-target="#privacyModal">Privacy</a>
-            <a class="nav-link footer-link" href="#" data-toggle="modal" data-target="#termsModal">Terms</a>
-            <a class="nav-link footer-link" href="#" data-toggle="modal" data-target="#faqModal">FAQ</a>
+            <a class="nav-link footer-link pt-2 pr-0" href="#" data-toggle="modal" data-target="#privacyModal">Privacy</a>
+            <a class="nav-link footer-link pt-2 px-2" href="#" data-toggle="modal" data-target="#termsModal">Terms</a>
+            <a class="nav-link footer-link pt-2 pl-0" href="#" data-toggle="modal" data-target="#faqModal">FAQ</a>
           </nav>
         </div>
       </div>
