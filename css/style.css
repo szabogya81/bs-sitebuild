@@ -36,13 +36,6 @@ p, footer {
   font-family: Muli, Helvetica, Arial, sans-serif;
 }
 
-/* .navbar-brand.active {
-  color:#FDCC53
-}
-
-.navbar-brand:hover {
-  color: #fff;
-} */
 .navbar-dark .navbar-brand.active {
   color:#FDCC53
 }
@@ -61,6 +54,10 @@ p, footer {
 
 .navbar.scroll .navbar-brand:hover {
   color: #2F2F2F;
+}
+
+.sticky-top.scroll {
+  background-color: #fff;
 }
 
 .navbar.scroll {
@@ -103,12 +100,17 @@ p, footer {
   transform: translate(-50%, -50%);
 }
 
+.topPhone {
+  width: 100%;
+}
+
 .demoTop {
-  width: 80%;
+  width: 78%;
 }
 
 .demoFeature {
-  width: 65%;
+  top: 49%;
+  width: 62%;
 }
 
 .download .jumbotron {
@@ -209,4 +211,50 @@ footer {
 
 .footer-link:hover {
   color:  #fdcc52;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .top h2 {
+    font-size: 2.8rem;
+  }
+  .features h1 {
+    font-size: 3rem;
+  }
+
+  .features .card-body .card-subtitle {
+    font-size: 1.6rem;
+  }
+  .start .jumbotron {
+
+    min-height:680px;
+  }
+
+  .start .jumbotron h2 {
+    font-size: 4.3rem;
+  }
+
+  .demoScreen {
+    left: 50%;
+    position: absolute;
+    top: 49%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topPhone {
+    width: 70%;
+  }
+
+  .demoTop {
+    left: 41%;
+    top: 51%;
+    width: 54%;
+  }
+
+  .demoFeature {
+    width:67%;
+  }
 }

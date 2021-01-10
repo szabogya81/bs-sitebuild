@@ -11,9 +11,11 @@ $(window).scroll(() => {
 
   if (scroll >= 1) {
     $('.navbar').removeClass('navbar-dark');
+    $('.sticky-top').addClass('scroll');
     $('.navbar').addClass('scroll');
   } else {
     $('.navbar').removeClass('scroll');
+    $('.sticky-top').removeClass('scroll');
     $('.navbar').addClass('navbar-dark');
   }
 });
